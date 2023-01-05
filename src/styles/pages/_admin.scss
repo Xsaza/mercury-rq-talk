@@ -1,0 +1,22 @@
+.admin-posts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid white;
+  padding-bottom: 0.875rem;
+
+  & > * {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .admin-posts-item {
+    text-underline-offset: 2px;
+
+    &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}

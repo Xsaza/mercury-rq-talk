@@ -1,0 +1,24 @@
+@use "../colors";
+
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: colors.$green-dark;
+  width: 150px;
+
+  .nav-link {
+    border-radius: 1rem;
+    text-align: center;
+    padding: 0.5rem;
+
+    font-size: 1.5rem;
+
+    &:hover {
+      cursor: pointer;
+      background-color: colors.$green-light;
+    }
+  }
+}

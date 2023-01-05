@@ -1,0 +1,22 @@
+@use "../colors";
+
+.posts-list {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+
+  .post-item {
+    background-color: colors.$green-lighter;
+    padding: 1rem;
+    border-radius: 1rem;
+
+    &_title {
+      margin-bottom: 1rem;
+    }
+
+    &:hover {
+      cursor: pointer;
+      background-color: colors.$green-light;
+    }
+  }
+}

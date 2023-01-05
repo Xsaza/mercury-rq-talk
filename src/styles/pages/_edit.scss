@@ -1,0 +1,14 @@
+.edit-page {
+  &__post-details {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid white;
+
+    &_title {
+      font-size: 1.2rem;
+    }
+  }
+}
